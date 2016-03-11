@@ -16,5 +16,6 @@
 <jsp:setProperty name="user3" property="email" value="john@caveofprogramming.com"/>
 <jsp:setProperty name="user3" property="password" value="letmein"/>
 
+<jsp:forward page="getrequestbean.jsp"/>
 </body>
 </html>
