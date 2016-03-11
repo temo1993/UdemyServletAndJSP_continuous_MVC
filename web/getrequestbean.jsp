@@ -2,23 +2,21 @@
   Created by IntelliJ IDEA.
   User: Temo
   Date: 3/11/2016
-  Time: 6:06 AM
+  Time: 6:11 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>GetPageBean Page</title>
+    <title>GetRequestBean Page</title>
 </head>
 <body>
-
-<!-- Won't work: bean has page scope \\\\\\\\\\\\\down\\ -->
-<jsp:useBean id="user2" class="beans.User" scope="page"/>
+<jsp:useBean id="user3" class="beans.User" scope="request"/>
 <p>Email:
-    <%= user2.getEmail()%>
+    <%= user3.getEmail()%>
 </p>
 <p>Password:
-    <%= user2.getPassword()%>
+    <%= user3.getPassword()%>
 </p>
 </body>
 </html>
