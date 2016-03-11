@@ -11,7 +11,10 @@
     <title>Home</title>
   </head>
   <body>
-  <h1 align="center">Welcome</h1>
+  <h1 align="center">Welcome from HOMEPAGE</h1>
 
+  <p><a href="/Controller?action=login">Go to Login page.</a></p>
+
+  <p><a href="/Controller?action=about">Go to about page.</a></p>
   </body>
 </html>
